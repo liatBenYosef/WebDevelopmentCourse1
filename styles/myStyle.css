@@ -1,0 +1,159 @@
+body 
+{
+    direction:rtl;
+}
+
+#container{
+    width:960px;
+    margin:0 auto;
+    background-color:pink;
+}
+
+
+nav ul li{
+    display:inline-block;
+    float:right;
+    display:block;
+width:120px;
+}
+nav ul li a
+{
+display: block;
+background-color: hotpink;
+color: black;
+width: 120px;
+height: 30px;
+padding-top: 10px;
+text-decoration: none;
+text-align: center;
+}
+
+
+#menu {
+    display: block;
+    height: 45px;
+}
+
+#menu ul {
+    display:block;
+}
+
+h1 {
+    display: block;
+    font-size: 60px;
+    text-align: center;
+    animation-name: bounce;
+    animation-duration:2s;
+}
+
+#me {
+    text-align:center;
+    margin-top:5px;
+}
+
+#project {
+    margin: 25px 15px 25px 8px;
+}
+
+#aba {
+    margin: 25px 15px 25px 8px;
+    
+}
+
+#posterWords {
+    margin: 25px 15px 25px 8px;
+}
+#homePic {
+    height: 350px;
+    width: 400px;
+    rotate-90 -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin: 50px 300px 50px 50px;
+    
+}
+#nohar {
+    height: 500px;
+    width: 450px;
+    margin: 35px 300px 5px 50px;
+    /*קביעת גודל התמונה*/
+    width: 300px
+}
+#abaBefore {
+    height: 350px;
+    width: 300px;
+    margin: 5px 165px 25px 25px;
+    /*קביעת גודל התמונה*/
+    width: 300px
+}
+
+#abaAfter {
+    height: 350px;
+    width: 300px;
+    margin: 5px 30px 25px 25px;
+    /*קביעת גודל התמונה*/
+    width: 300px
+}
+#poster {
+    height: 500px;
+    width: 450px;
+    margin: 50px 300px 50px 50px;
+    /*קביעת גודל התמונה*/
+    width: 300px
+}
+
+#movie {
+    margin: 5px 200px 50px 50px;
+}
+
+nav ul li a:hover {
+    background-color: peachpuff;
+}
+
+nav ul li a:active {
+    background-color: lightpink;
+}
+
+.navCurrent {
+    background-color: pink;
+}
+
+#before {
+    margin: 60px 300px 5px 265px;
+    animation-name: bounce;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes bounce {
+    from, 60%, 75%, 90%, to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(3000px, 0, 0);
+        transform: translate3d(3000px, 0, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(-25px, 0, 0);
+        transform: translate3d(-25px, 0, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(-5px, 0, 0);
+        transform: translate3d(-5px, 0, 0);
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
